@@ -1,7 +1,7 @@
 from webserver import keep_alive
 import requests
 
-channelID = PUT THE CHANNEL ID
+channelID = put 1037032505636835348
 headers = {
     "authorization":
     "YOUR TOKEN HERE"
@@ -16,3 +16,4 @@ while True:
             f"https://discord.com/api/v9/channels/{channelID}/messages",
             headers=headers,
             json={"content": line})
+
